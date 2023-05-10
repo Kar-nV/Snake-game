@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+
+body { background-color: rgb(0, 0, 0);
+ 
+    padding: 2px;
+    margin: 2px;
+  
+ }
+ h1.titulo {
+    font-display: flex;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    color:white;
+    justify-content: flex-start;
+}
+
+div.imagem-nokia { 
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    background-attachment: fixed;
+
+}
+
+div.canva {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    position: absolute;
+    top: 274px;
+    right: 80%;
+    left: 43%;
+    width: 166px;
+    height: 138px;
+    border-radius: 18px;
+    border: 10px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+#canvas {
+    background-color: rgb(0, 0, 0);
+  }
+  
